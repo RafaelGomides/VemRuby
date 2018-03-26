@@ -3,11 +3,11 @@
 one:
   name: MyString
   email: MyString
-  kind: 
+  kind: one
   rmk: MyText
 
 two:
   name: MyString
   email: MyString
-  kind: 
+  kind: two
   rmk: MyText
