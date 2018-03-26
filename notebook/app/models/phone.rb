@@ -1,2 +1,2 @@
-class Phone < ActiveRecord::Base
+class Phone < ApplicationRecord
 end

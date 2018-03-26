@@ -3,8 +3,133 @@
   <component name="ChangeListManager">
     <list default="true" id="0de56103-3042-475b-9d42-d25b7bcee60e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/VemRuby.iml" afterPath="$PROJECT_DIR$/.idea/VemRuby.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/notebook/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/Gemfile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/Gemfile.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/README.rdoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/Rakefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/assets/images/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/assets/javascripts/addresses.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/assets/javascripts/application.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/assets/javascripts/contacts.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/assets/javascripts/kinds.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/assets/javascripts/phones.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/assets/stylesheets/addresses.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/assets/stylesheets/application.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/assets/stylesheets/contacts.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/assets/stylesheets/kinds.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/assets/stylesheets/phones.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/assets/stylesheets/scaffolds.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/controllers/addresses_controller.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/controllers/application_controller.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/controllers/concerns/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/controllers/contacts_controller.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/controllers/kinds_controller.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/controllers/phones_controller.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/helpers/addresses_helper.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/helpers/application_helper.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/helpers/contacts_helper.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/helpers/kinds_helper.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/helpers/phones_helper.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/mailers/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/models/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/models/address.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/models/concerns/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/models/contact.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/models/kind.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/models/phone.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/views/addresses/_address.json.jbuilder" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/views/addresses/_form.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/views/addresses/edit.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/views/addresses/index.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/views/addresses/index.json.jbuilder" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/views/addresses/new.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/views/addresses/show.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/views/addresses/show.json.jbuilder" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/views/contacts/_contact.json.jbuilder" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/views/contacts/_form.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/views/contacts/edit.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/views/contacts/index.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/views/contacts/index.json.jbuilder" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/views/contacts/new.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/views/contacts/show.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/views/contacts/show.json.jbuilder" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/views/kinds/_form.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/views/kinds/_kind.json.jbuilder" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/views/kinds/edit.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/views/kinds/index.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/views/kinds/index.json.jbuilder" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/views/kinds/new.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/views/kinds/show.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/views/kinds/show.json.jbuilder" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/views/layouts/application.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/views/phones/_form.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/views/phones/_phone.json.jbuilder" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/views/phones/edit.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/views/phones/index.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/views/phones/index.json.jbuilder" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/views/phones/new.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/views/phones/show.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/app/views/phones/show.json.jbuilder" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/bin/bundle" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/bin/rails" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/bin/rake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/bin/setup" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/config.ru" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/config/application.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/config/boot.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/config/database.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/config/environment.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/config/environments/development.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/config/environments/production.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/config/environments/test.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/config/initializers/assets.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/config/initializers/backtrace_silencers.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/config/initializers/cookies_serializer.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/config/initializers/filter_parameter_logging.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/config/initializers/inflections.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/config/initializers/mime_types.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/config/initializers/session_store.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/config/initializers/to_time_preserves_timezone.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/config/initializers/wrap_parameters.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/config/locales/en.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/config/routes.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/config/secrets.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/db/migrate/20180326164904_create_kinds.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/db/migrate/20180326165625_create_contacts.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/db/migrate/20180326165956_create_addresses.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/db/migrate/20180326170138_create_phones.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/db/seeds.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/lib/assets/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/lib/tasks/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/log/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/public/404.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/public/422.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/public/500.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/public/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/public/robots.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/test/controllers/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/test/controllers/addresses_controller_test.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/test/controllers/contacts_controller_test.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/test/controllers/kinds_controller_test.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/test/controllers/phones_controller_test.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/test/fixtures/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/test/fixtures/addresses.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/test/fixtures/contacts.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/test/fixtures/kinds.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/test/fixtures/phones.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/test/helpers/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/test/integration/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/test/mailers/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/test/models/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/test/models/address_test.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/test/models/contact_test.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/test/models/kind_test.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/test/models/phone_test.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/test/test_helper.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/vendor/assets/javascripts/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notebook/vendor/assets/stylesheets/.keep" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,10 +168,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1376" />
-    <option name="y" value="27" />
-    <option name="width" value="1221" />
-    <option name="height" value="663" />
+    <option name="y" value="25" />
+    <option name="width" value="1366" />
+    <option name="height" value="743" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -63,6 +187,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -70,17 +196,11 @@
               <item name="VemRuby" type="b2602c69:ProjectViewProjectNode" />
               <item name="VemRuby" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="VemRuby" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VemRuby" type="462c0819:PsiDirectoryNode" />
-              <item name="notebook" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -105,12 +225,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Rails.Production: teste">
+  <component name="RunManager" selected="Rails.Development: VemRuby">
+    <configuration name="Development: VemRuby" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="VemRuby" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+    </configuration>
     <configuration name="Development: teste" type="RailsRunConfigurationType" factoryName="Rails">
       <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
       <module name="VemRuby" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="RVM: ruby-2.4.1" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
@@ -131,13 +275,13 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="BROWSER_URL" VALUE="http://0.0.0.0:3000" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="true" />
     </configuration>
-    <configuration name="Production: teste" type="RailsRunConfigurationType" factoryName="Rails">
+    <configuration name="Production: VemRuby" type="RailsRunConfigurationType" factoryName="Rails">
       <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
       <module name="VemRuby" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="RVM: ruby-2.4.1" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
       <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
@@ -151,10 +295,56 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="puma" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+    </configuration>
+    <configuration name="Production: teste" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="VemRuby" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="true" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="RVM: ruby-2.4.1" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="default" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="BROWSER_URL" VALUE="http://0.0.0.0:3000" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="true" />
+    </configuration>
+    <configuration name="spec: VemRuby" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="VemRuby" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="spec" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":rspec " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
     </configuration>
     <configuration name="spec: teste" type="RakeRunConfigurationType" factoryName="Rake">
       <module name="teste" />
@@ -174,6 +364,30 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="spec" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":rspec " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+    </configuration>
+    <configuration name="test: VemRuby" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="VemRuby" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="test" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":test_unit " />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
@@ -274,15 +488,19 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/scripts/aulas/aula19/init.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
     </configuration>
-    <list size="8">
-      <item index="0" class="java.lang.String" itemvalue="Rails.Production: teste" />
-      <item index="1" class="java.lang.String" itemvalue="Rails.Development: teste" />
-      <item index="2" class="java.lang.String" itemvalue="Rake.test: teste" />
-      <item index="3" class="java.lang.String" itemvalue="Rake.spec: teste" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.aula010" />
-      <item index="5" class="java.lang.String" itemvalue="Ruby.init" />
-      <item index="6" class="java.lang.String" itemvalue="Ruby.frete" />
-      <item index="7" class="java.lang.String" itemvalue="Ruby.aula012b" />
+    <list size="12">
+      <item index="0" class="java.lang.String" itemvalue="Rails.Development: VemRuby" />
+      <item index="1" class="java.lang.String" itemvalue="Rails.Production: VemRuby" />
+      <item index="2" class="java.lang.String" itemvalue="Rake.spec: VemRuby" />
+      <item index="3" class="java.lang.String" itemvalue="Rake.test: VemRuby" />
+      <item index="4" class="java.lang.String" itemvalue="Rails.Production: teste" />
+      <item index="5" class="java.lang.String" itemvalue="Rails.Development: teste" />
+      <item index="6" class="java.lang.String" itemvalue="Rake.test: teste" />
+      <item index="7" class="java.lang.String" itemvalue="Rake.spec: teste" />
+      <item index="8" class="java.lang.String" itemvalue="Ruby.aula010" />
+      <item index="9" class="java.lang.String" itemvalue="Ruby.init" />
+      <item index="10" class="java.lang.String" itemvalue="Ruby.frete" />
+      <item index="11" class="java.lang.String" itemvalue="Ruby.aula012b" />
     </list>
     <recent_temporary>
       <list size="4">
@@ -314,26 +532,30 @@
       <workItem from="1522035482882" duration="254000" />
       <workItem from="1522037583179" duration="645000" />
       <workItem from="1522068617952" duration="2323000" />
+      <workItem from="1522090251949" duration="963000" />
+      <workItem from="1522091314954" duration="17000" />
+      <workItem from="1522091354985" duration="3000" />
+      <workItem from="1522091431372" duration="18000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7813000" />
+    <option name="totallyTimeSpent" value="8814000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1366" y="-2" width="1366" height="770" extended-state="6" />
+    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2621212" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2780303" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36286202" sideWeight="0.5030441" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36286202" sideWeight="0.49695587" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3257329" sideWeight="0.49695587" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3253833" sideWeight="0.49695587" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -356,6 +578,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/notebook/app/controllers/kinds_controller.rb" />
     <entry file="file://$PROJECT_DIR$/scripts/aulas/aula012b.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -405,5 +628,6 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/notebook/app/controllers/kinds_controller.rb" />
   </component>
 </project>

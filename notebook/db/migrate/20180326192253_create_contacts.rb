@@ -1,4 +1,4 @@
-class CreateContacts < ActiveRecord::Migration
+class CreateContacts < ActiveRecord::Migration[5.1]
   def change
     create_table :contacts do |t|
       t.string :name
@@ -6,7 +6,7 @@ class CreateContacts < ActiveRecord::Migration
       t.reference :kind
       t.text :rmk
 
-      t.timestamps null: false
+      t.timestamps
     end
   end
 end

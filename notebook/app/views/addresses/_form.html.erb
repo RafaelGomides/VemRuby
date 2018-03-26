@@ -1,10 +1,10 @@
-<%= form_for(@address) do |f| %>
-  <% if @address.errors.any? %>
+<%= form_with(model: address, local: true) do |form| %>
+  <% if address.errors.any? %>
     <div id="error_explanation">
-      <h2><%= pluralize(@address.errors.count, "error") %> prohibited this address from being saved:</h2>
+      <h2><%= pluralize(address.errors.count, "error") %> prohibited this address from being saved:</h2>
 
       <ul>
-      <% @address.errors.full_messages.each do |message| %>
+      <% address.errors.full_messages.each do |message| %>
         <li><%= message %></li>
       <% end %>
       </ul>
@@ -12,22 +12,26 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :street %><br>
-    <%= f.text_field :street %>
+    <%= form.label :street %>
+    <%= form.text_field :street, id: :address_street %>
   </div>
+
   <div class="field">
-    <%= f.label :city %><br>
-    <%= f.text_field :city %>
+    <%= form.label :city %>
+    <%= form.text_field :city, id: :address_city %>
   </div>
+
   <div class="field">
-    <%= f.label :state %><br>
-    <%= f.text_field :state %>
+    <%= form.label :state %>
+    <%= form.text_field :state, id: :address_state %>
   </div>
+
   <div class="field">
-    <%= f.label :contact %><br>
-    <%= f.text_field :contact %>
+    <%= form.label :contact %>
+    <%= form.text_field :contact, id: :address_contact %>
   </div>
+
   <div class="actions">
-    <%= f.submit %>
+    <%= form.submit %>
   </div>
 <% end %>
