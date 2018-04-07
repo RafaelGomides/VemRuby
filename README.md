@@ -1,2 +1,2 @@
 # VemRuby
-Repositório destinado a estudos de Ruby / Rails
+Repositório destinado a estudos de Ruby on Rails
